@@ -13,8 +13,10 @@ describe Challenge6 do
       it "should convert '#{input}' to '#{output}'" do
         Challenge6.morse_to_eng(input).should == output
       end
-    end
-    
+    end 
   end
 
 end
+
+# before 0.153733
+# after  0.15318
